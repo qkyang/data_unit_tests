@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+	<parameter name="kerberosUser" value="Tank" />
+	<parameter name="keytabPath" value="Tank" />
+	<parameter name="databaseType" value="Tank" />
+	<parameter name="url" value="Tank" />
+	<parameter name="username" value="Tank" />
+	<parameter name="password" value="Tank" />
+	<parameter name="R001InputFile" value="Xiao" />
+	<test name="unittest">
+		<classes>
+			<class name="com.cic.bd.test.R001" />
+		</classes>
+	</test>
+</suite>
